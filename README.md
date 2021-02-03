@@ -1,4 +1,4 @@
-# .NET-API-Azure-
+# .NET-API-Azure
 .NET API deployed on Azure with Azure DB
 
 Live api at - https://adsycinemaapi.azurewebsites.net/index.html
