@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAcIcc1kAtkUKLBVl8U3VliQAAAAACAAAAAAAQZgAAAAEAACAAAACjc4bFhxLG+qn+C2/0G4sx99hdbsuWiJOe63zA82d9tgAAAAAOgAAAAAIAACAAAAC+3rrRdUPw0yHLjvHfyECTdavHXfzhz/fiHllSiUljvIAAAABquFGbmdMQdw2GE9IoZg6TjhW/mm0TPTbw5PPh7u7kC6+PeZi64vtCMzpDg/U+HDGr9+CDLIw/ahu+1Ebx/MDqdgP0W3eBWLq9vQjLC95oHHarV2nc8er3yhqBdaENAoTpTeeDb3yMGGGdItLk7jeVZJd1Ljo0VIxLwfqdraXjhkAAAADt5W1XpdMJe+NnO7UZ5OXaBX1zGBbPouZTtPStJbUtfhdbWHOw2PCNLLxkjawmvTJ0jv6DYmLsFsswD8ZOuUj3</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CinemaDbConnection">
+      <Value>Server=tcp:adsy-cinema-api-db.database.windows.net,1433%3bInitial Catalog=CinemaApiDB%3bPersist Security Info=False%3bUser ID=adsy%3bPassword=Br!ttain123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ASPNET_WebAPI.Data.CinemaDbContext">
+      <Value>Server=tcp:adsy-cinema-api-db.database.windows.net,1433%3bInitial Catalog=CinemaApiDB%3bPersist Security Info=False%3bUser ID=adsy%3bPassword=Br!ttain123%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

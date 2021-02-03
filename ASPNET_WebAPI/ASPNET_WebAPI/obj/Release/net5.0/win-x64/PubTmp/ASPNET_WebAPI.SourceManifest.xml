@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\adsyb\Documents\coding\C#\ASPNET_WebAPI\ASPNET_WebAPI\ASPNET_WebAPI\obj\Release\net5.0\win-x64\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\adsyb\Documents\coding\C#\ASPNET_WebAPI\ASPNET_WebAPI\ASPNET_WebAPI\obj\Release\net5.0\win-x64\PubTmp\EFSQLScripts\ASPNET_WebAPI.Data.CinemaDbContext.sql" />
+</sitemanifest>
